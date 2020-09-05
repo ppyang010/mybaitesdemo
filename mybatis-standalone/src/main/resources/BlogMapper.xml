@@ -9,11 +9,11 @@
     <cache type="org.mybatis.caches.redis.RedisCache"
            eviction="FIFO" flushInterval="60000" size="512" readOnly="true"/>
 -->
-        <cache type="org.apache.ibatis.cache.impl.PerpetualCache"
-               size="1024"
-               eviction="LRU"
-               flushInterval="120000"
-               readOnly="false"/>
+<!--        <cache type="org.apache.ibatis.cache.impl.PerpetualCache"-->
+<!--               size="1024"-->
+<!--               eviction="LRU"-->
+<!--               flushInterval="120000"-->
+<!--               readOnly="false"/>-->
 
     <resultMap id="BaseResultMap" type="blog">
         <id column="bid" property="bid" jdbcType="INTEGER"/>
