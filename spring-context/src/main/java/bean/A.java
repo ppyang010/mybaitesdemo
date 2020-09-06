@@ -14,4 +14,8 @@ public class A {
         this.b = b;
         return this;
     }
+
+    public void testAspect(){
+        System.out.println("testAspect");
+    }
 }
